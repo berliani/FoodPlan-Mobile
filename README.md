@@ -24,8 +24,8 @@ Aplikasi ini memberikan **rekomendasi resep masakan berbasis AI** berdasarkan ba
 
 1️⃣ Clone repository ini:
 ```bash
-git clone https://github.com/berliani/ObjectDetectionYOLO.git
-cd ObjectDetectionYOLO
+git clone https://github.com/berliani/FoodPlan-Mobile.git
+cd FoodPlan-Mobile
 ```
 2️⃣ Pastikan Anda sudah menginstal Flutter SDK dan dependencies:
 ```bash
