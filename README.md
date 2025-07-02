@@ -1,16 +1,37 @@
-# food_plan
+# FoodPlan 🍽️
 
-A new Flutter project.
+**FoodPlan** aplikasi mobile berbasis **Flutter** dengan dukungan **kecerdasan buatan (AI)** untuk membantu pengguna merencanakan diet sehat.  
+Aplikasi ini memberikan **rekomendasi resep masakan berbasis AI** berdasarkan bahan makanan yang tersedia dan kebutuhan diet pengguna.
 
-## Getting Started
+## 🚀 Fitur Utama
 
-This project is a starting point for a Flutter application.
+- 🥦 **Deteksi Bahan Makanan**  
+  Menggunakan YOLOv8 untuk mendeteksi bahan makanan dari kamera dan memberikan rekomendasi resep diet yang telah dipersonalisasi.
 
-A few resources to get you started if this is your first Flutter project:
+- 💬 **Generatif Chatbot (LLM)**  
+  Chatbot cerdas berbasis Large Language Model (LLM) untuk menjawab pertanyaan seputar diet, gizi, dan resep.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 📅 **Rencana Diet Personal**  
+  Fitur rencana diet yang menampilkan informasi dan perencanaan menu diet sesuai dengan preferensi pengguna.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠 Teknologi dan Library
+
+- **Flutter**
+- **YOLOv8** (deteksi objek bahan makanan)
+- **Large Language Model (LLM)** untuk chatbot (detail backend dapat disesuaikan)
+
+## ⚙️ Instalasi dan Cara Menjalankan
+
+1️⃣ Clone repository ini:
+```bash
+git clone https://github.com/berliani/ObjectDetectionYOLO.git
+cd ObjectDetectionYOLO
+```
+2️⃣ Pastikan Anda sudah menginstal Flutter SDK dan dependencies:
+```bash
+flutter pub get
+```
+3️⃣ Jalankan aplikasi di emulator atau perangkat fisik:
+```bash
+flutter run
+```
